@@ -1,16 +1,12 @@
 {
-<<<<<<< HEAD
-  "name": "Weather Extension",
-  "description": "Superimposes the weather on to EVERY web page",
-=======
-  "name": "NYT override",
-  "description": "Inject a custom stylesheet on a website",
->>>>>>> 929ea16a59b0da015b0cc87ea84830e8d03866c9
+  "name": "My extension",
+  "description": "Shows some of the features of the Context Menus API using an event page",
   "version": "0.0.1",  
   "content_scripts": [
     {
-      "matches": ["http://*.nytimes.com/*"],
-      "css": ["style.css"]
+      "matches": ["http://*/*"],
+      "css": ["style.css"],
+      "js": ["jquery.js", "script.js"]
     }
   ],
   "manifest_version": 2  
