@@ -1,12 +1,11 @@
 {
-  "name": "My extension",
-  "description": "Shows some of the features of the Context Menus API using an event page",
+  "name": "NYT override",
+  "description": "Inject a custom stylesheet on a website",
   "version": "0.0.1",  
   "content_scripts": [
     {
-      "matches": ["http://*/*"],
-      "css": ["style.css"],
-      "js": ["jquery.js", "script.js"]
+      "matches": ["http://*.nytimes.com/*"],
+      "css": ["style.css"]
     }
   ],
   "manifest_version": 2  
