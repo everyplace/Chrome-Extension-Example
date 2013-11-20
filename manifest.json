@@ -1,6 +1,6 @@
 {
-  "name": "My extension",
-  "description": "Shows some of the features of the Context Menus API using an event page",
+  "name": "Weather Extension",
+  "description": "Superimposes the weather on to EVERY web page",
   "version": "0.0.1",  
   "content_scripts": [
     {
