@@ -1,12 +1,16 @@
 {
+<<<<<<< HEAD
   "name": "Weather Extension",
   "description": "Superimposes the weather on to EVERY web page",
+=======
+  "name": "NYT override",
+  "description": "Inject a custom stylesheet on a website",
+>>>>>>> 929ea16a59b0da015b0cc87ea84830e8d03866c9
   "version": "0.0.1",  
   "content_scripts": [
     {
-      "matches": ["http://*/*"],
-      "css": ["style.css"],
-      "js": ["jquery.js", "script.js"]
+      "matches": ["http://*.nytimes.com/*"],
+      "css": ["style.css"]
     }
   ],
   "manifest_version": 2  

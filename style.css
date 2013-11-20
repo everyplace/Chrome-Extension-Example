@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #temperatureExtension {
 	position:fixed;
 	bottom:0;
@@ -5,4 +6,8 @@
 	width:100px;
 	height:100px;
 	background-color:yellow;
+=======
+#shell #memberTools, #shell #mainTabs, #shell #editionListContainer {
+	display:none !important;
+>>>>>>> 929ea16a59b0da015b0cc87ea84830e8d03866c9
 }

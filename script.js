@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	
+<<<<<<< HEAD
 	$("body").append("<div id='temperatureExtension'>");
 	
 	//set up an empty api object to store all of your information in
@@ -34,4 +35,7 @@ $(document).ready(function(){
 			
 	  }
 	});
+=======
+
+>>>>>>> 929ea16a59b0da015b0cc87ea84830e8d03866c9
 });
