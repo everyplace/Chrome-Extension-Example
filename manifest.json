@@ -1,6 +1,6 @@
 {
   "name": "My extension",
-  "description": "Shows some of the features of the Context Menus API using an event page",
+  "description": "An example chrome extension that injects buttons",
   "version": "0.0.1",  
   "content_scripts": [
     {
